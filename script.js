@@ -1,6 +1,6 @@
 const getHours = () => {
   const clock = document.getElementsByClassName("clock")[0];
-  const date = new Date();
+  const date = new Date("2023-12-12");
   const hours = date.getHours();
   const minutes = date.getMinutes();
   const seconds = date.getSeconds();
